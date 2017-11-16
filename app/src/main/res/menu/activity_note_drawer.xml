@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Sorting Options">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/srtDateAsc"
+                    android:icon="@drawable/bullish_copy"
+                    android:title="By Date" />
+                <item
+                    android:id="@+id/srtDateDsc"
+                    android:icon="@drawable/bearish_copy"
+                    android:title="By Date" />
+                <item
+                    android:id="@+id/srtTitleAsc"
+                    android:icon="@drawable/bullish"
+                    android:title="By Title" />
+                <item
+                    android:id="@+id/srtTitleDsc"
+                    android:icon="@drawable/bearish"
+                    android:title="By Title" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Navigation">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/home"
+                    android:title="Home" />
+                <!--<item-->
+                <!--android:id="@+id/nav_zzzz"-->
+                <!--android:icon="@drawable/bearish_copy"-->
+                <!--android:title="By Date" />-->
+            </group>
+        </menu>
+    </item>
+
+</menu>

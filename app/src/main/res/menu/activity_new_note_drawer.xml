@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Navigation">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/home"
+                    android:title="Home" />
+                <!--<item-->
+                <!--android:id="@+id/nav_zzzz"-->
+                <!--android:icon="@drawable/bearish_copy"-->
+                <!--android:title="By Date" />-->
+            </group>
+        </menu>
+    </item>
+
+</menu>
