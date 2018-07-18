@@ -1,4 +1,4 @@
-# Notify Android Appl
+# Notify Android App
 
 <br/>
 
